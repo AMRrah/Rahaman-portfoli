@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rahaman.AM - Developer portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/493ec15619.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Rahaman's portfolio</div>
+        <div class="right">
+          <ul id="sidemenu">
+            <li><a href="#home" onclick="home">Home</a></li>
+            <li><a href="#projects" onclick="Project">Project</a></li>
+            <li><a href="#about" onclick="about">About</a></li>
+            <li><a href="#skill" onclick="skills">skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul><i class="fa-solid fa-bars" onclick="openmenu()"></i>        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection" id="home">
+        <div class="leftsection">
+          Hi, My name is <span class="red">Rahaman</span>
+          <div>and I am a passionate</div>
+
+          <span id="element"></span>
+        </div>
+        <hr />
+        <div class="summary">
+          <span id="summary"></span>
+          <div>
+            <p>
+              I am always motivated towards the  well development of myself and the work I engage with . I carry the ability of perfection which will result in better outcome. I am smartly hard working and passionate to update myself with the current trends.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="rightsection">
+          <img src="./rr.png.png" alt="Developer" />
+        </div>
+      </section>
+      <hr id="hr" />
+      <div class="about"><h1 class="sub-title" ><span id="about"></span></h1></div>
+      <!-- <div class="about" id="about"><h1 class="me">about me</h1></div> -->
+      <section class="secondsection" id="projects">
+        <div class="project">
+          <span id="project"></span>
+          
+            <p class="div">
+              Responsive landing page :<br><br>
+                   Developed an responsive landing page using html,css,js which will react when hovering on the image or Click action.<br><br>
+Tic-Tac-Toe :<br><br>
+Developed a tic tac teo game where two players can play x and o in that one will win. it will display where x is won or o is
+won . it will display who’s next.<br><br>
+StopWatch And Portfolio :<br><br>
+Developed a stop watch and Portfolio using html ,css, js.<br><br>
+Hotel Website :<br><br>
+Developed a simple website using canva.
+
+            </p>
+          
+            
+        </div>
+        <hr />
+        <div class="skill" id="skills">
+          <span id="skill"></span>
+          <div class="div1">
+            <p>
+             Programming : <br><br>
+             <ul style="margin-left: 10%;"><li>HTML </li><li>CSS </li><li>Bootstrap</li><li>Javascript</li><li>Java</li><li>Python</li><li>C++</li><li>MERN</li></ul> 
+
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="accomplishment" id="accomplish">
+          <span id="accomplishment"></span>
+          <div class="div2">
+            <p>
+             Tools:<br><br><ul style="margin-left: 10%;"><li>Visual Studio Code</li><li>PyCharm</li><li>GitHub</li><li>Anaconda</li><li>Spyder</li><li>canva</li><li>Microsoft Excel</li><li>Power BI</li><li>Jupyter NoteBook</li></ul> 
+              
+            </p>
+          </div>
+        </div>
+      </section>
+      <hr id="hr" />
+      <section class="thirdsection">
+        <div class="background">
+          <span id="background"></span>
+          <div>
+            <p>
+              Internship Certificate :<br><br> Prodigy Infotech - Internship completion <br><br>Course Certificate : LinkedIn Learning - Microsoft Office , web development
+
+<br><br>SoloLearn - HTML , CSS<br><br>
+Won 2nd Prize in Documentary Competition in the KARPATHARU INTER SCHOOL CULTURALS
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="education">
+          <span id="education"></span>
+          <div>
+            <p>
+              THE NEW COLLEGE (2020 - 2023)<br><br>
+Bachelor of Computer Applications - BCA<br>
+● CGPA : 7.75/10<br><br>
+MEASI INSTITUTE OF INFORMATION TECHNOLOGY (2023 – 2025)<br><br>
+Master of Computer Applications - MCA<br><br>
+● CGPA: 7.6/10<br>
+● Coursework: Ongoing Full stack web development course and Data Analysis using python.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="experience">
+          <span id="experience"></span>
+          <div>
+            <p>
+              ROLE : Web Development Intern <br><br>
+Prodigy Infotech May 2024<br><br>
+● Developed web pages using HTML, CSS, and JavaScript to enhance user experience<br><br>
+
+● Maintained and updated existing web pages to improve functionality and performance<br><br>
+
+● Delivered assigned tasks and projects on time, demonstrating strong front-end development skills<br>   <br>
+         </p>
+          </div>
+        </div>
+      </section>
+      <hr id="hr" />
+      <div class="contact" id="contact"><h1 class="sub-title" ><span id="contacts"></span></h1></div>
+      <section class="fourthsection">
+        <!-- <div class="contain">
+          <div class="row"> -->
+            <div class="contact-left">
+              
+              <p style="text-transform: lowercase;"><i class="fa-solid fa-paper-plane"></i> rahaman.am0412@gmail.com
+                <br> <i class="fa-solid fa-phone"></i> 9940491876
+              </p>
+              
+              
+            <a href="./my cv.pdf.jpg"  download
+           class="btn btn2" id="bun">download cv</a></div>
+            
+            <div class="contact-right">
+              <form action="">
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="your Name "
+                  required />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="your Email"
+                  required />
+                <textarea
+                  name="Message"
+                  rows="6"
+                  placeholder="your Message"></textarea>
+                <button type="submit" class="btn btn2" id="submit">submit</button>
+              </form>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <hr id="hr">
+    
+    <div class="social-icons">
+                <a href="https://www.facebook.com/share/12L91NVrJAh/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/RAHAMANAM1?t=wDNOWvUQYqMCJXE9tzxdPA&s=08"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/rahaman.a.m.1?utm_source=qr&igsh=MTBlYWNkaWVqdjJ5cQ=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rahaman-am01?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                 <a href="https://github.com/AMRrah"><i class="fa-brands fa-github"></i></a>
+              </div>
+           
+            </main>
+            <section class="five">  
+            <footer ><div class="footer-class">
+              <!-- <div class="lefts">Rahaman's portfolio</div> -->
+        <div class="right">
+          <ul>
+            <li><a href="#home" onclick="home"><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="#projects" onclick="Project"><i class="fa-solid fa-list-check"></i></a></li>
+            <li><a href="#about" onclick="about"><i class="fa-solid fa-address-card"></i></a></li>
+            <li><a href="#skill" onc lick="skills"><i class="fa-solid fa-gears"></i></a></li>
+            <li><a href="#contact"><i class="fa-regular fa-address-book"></i></a></li>
+          </ul>
+        </div>
+        
+              
+             </footer>
+            <div class="copyrights">
+              <p>copyright © Rahamanportfolio.com <i class="fa-solid fa-heart"></i> All rights reserved</p>
+            </div></section>
+            
+     
+            <script src="./index.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer.",
+          "UI/UX Designer.",
+          "Graphic Designer.",
+        ],
+        typeSpeed: 50,
+      });
+      var typed = new Typed("#summary", {
+        strings: ["summary"],
+        typeSpeed: 50,
+      });
+      var typed = new Typed("#project", {
+        strings: ["Project"],
+        typeSpeed: 50,
+      });
+      var typed = new Typed("#skill", {
+        strings: ["Skills"],
+        typeSpeed: 50,
+      });
+      var typed = new Typed("#accomplishment", {
+        strings: ["Tools"],
+        typeSpeed: 50,
+      });
+      // var typed = new Typed("#skill", {
+      //   strings: ["skills"],
+      //   typeSpeed: 50,
+      // });
+      var typed = new Typed("#background", {
+        strings: ["Accomplishments"],
+        typeSpeed: 50,
+      });
+
+      var typed = new Typed("#education", {
+        strings: ["Education"],
+        typeSpeed: 50,
+      });
+
+      var typed = new Typed("#experience", {
+        strings: ["Work experience"],
+        typeSpeed: 50,
+      });
+      
+      var typed = new Typed("#contacts", {
+        strings: ["contact me"],
+        typeSpeed: 50,
+      });
+      var typed = new Typed("#about", {
+        strings: ["about me"],
+        typeSpeed: 50,
+      });
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right="0";
+
+      }function closemenu(){
+        sidemenu.style.right="-300px";
+
+      }
+    </script>
+     
+</body>
+</html>
