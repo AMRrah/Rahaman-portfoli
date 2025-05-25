@@ -368,24 +368,34 @@ form .btn2 {
   /* background-color:rgb(50, 34, 13); */
 }
 
-.footer-class ul {
+.footer-class .right {
   display: flex;
   justify-content: center;
-}
-.footer-class ul li {
   list-style: none;
-  margin: 0 23px;
+  /* margin: 0 23px; */
+  margin: 50px 0px;
+  margin-right: 5%;
 }
-.footer-class ul li a {
-  text-decoration: none;
+.footer-class .right a {
+  /* text-decoration: none;
   color: whitesmoke;
-  font-size: 1.5rem;
+  font-size: 1.5rem; */
+  /* transition: transform 0.5; */
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  color: whitesmoke;
+  display: inline-block;
+  transition: transform 0.5;
 }
-.footer-class ul li a:hover {
+.footer-class .right a:hover {
   /* color: rgb(194, 194, 235); */
   color: rgb(173, 76, 76);
-  font-size: 35px;
+  /* font-size: 35px; */
+  transform: translateY(-5px);
 }
+
 .lefts {
   font-size: 2.5rem;
   color: rgb(209, 177, 159);
@@ -395,9 +405,11 @@ form .btn2 {
 .copyrights {
   background-color: rgb(29, 6, 6);
   width: 100%;
-  text-align: center;
+/*   text-align: center; */
+  margin-left: 31%;
   padding: 25px 0;
   font-weight: 300;
+  font-size: 20px;
   /* margin-top: 10px; */
   color: rgb(211, 205, 201);
 }
@@ -781,5 +793,24 @@ nav .fa-solid {
     font-size: 18px;
     margin: 20px;
     cursor: pointer;
+  }
+  .footer-class .right {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    /* margin: 0 23px; */
+    margin: 50px 0px;
+    margin-right: 0.3%;
+  }
+  .copyrights {
+    background-color: rgb(29, 6, 6);
+    width: 80%;
+    /* text-align: center; */
+    margin-left: 12%;
+    padding: 25px 0;
+    font-weight: 300;
+    font-size: 20px;
+    /* margin-top: 10px; */
+    color: rgb(211, 205, 201);
   }
 }
